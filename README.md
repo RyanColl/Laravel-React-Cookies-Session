@@ -20,7 +20,7 @@ Here is a list of things that the app is required to do, and how I solved them.
 
 ### 1. login.php must dynamically figure out its own name for the action setting for the form
 
-My interpretation of this is to create a dynamic action for the form. In this case, I have chosen to leave my form action blank, meaning whatever file the form is in, the action will return. In this case, because the form is in login.php, then the action will become login.php.
+My interpretation of this is to create a dynamic action for the form. In this case, I have chosen to leave my form action blank, meaning whatever file the form is in, the action will return that file. In this case, because the form is in login.php, then the action will become login.php.
 ```html
 <form action="" method="get">
 username:<input type="text" name="username"><br>
